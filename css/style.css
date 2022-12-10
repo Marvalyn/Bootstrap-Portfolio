@@ -170,14 +170,12 @@ nav {
 
 /*My Work*/
 
-.subHeading {
+.sectionHeading {
     text-align: center;
     border-bottom: 20px;
-    width: 300px;
     margin: 50px auto;
     color: #cc005f;
     font-size: 40px;
-    padding-top: 100px;
 }
 
 
@@ -191,30 +189,10 @@ nav {
     border-bottom: 5px solid #cc005f;
 }
 
-/*RESPONSIVE*/
-@media only screen and (max-width: 1024px) {
-    #My-Work {
-        margin-left: auto;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    #workGrid {
-        grid-template-rows: 300px 300px 300px;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "placeholder1"
-
-            "placeholder2"
-
-            "Horiseon"
-    }
-}
-
 /* CONTACT ME*/
 
 #Contact-Me {
-    background: #FFFFFF;
+    background: #151515;
     padding-top: 12rem;
     padding-bottom: 7.2rem;
 }
@@ -279,3 +257,38 @@ footer {
     text-align: center;
     color: #cc005f;
 }
+
+#myBtn {
+    background-color: #FF0077;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 15%;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px #151515;
+}
+
+#myBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #myBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #myBtn:hover span {
+    padding-right: 25px;
+  }
+  
+  #myBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
