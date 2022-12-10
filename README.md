@@ -11,7 +11,7 @@ The webpage can be accessed using any web browser on any device (desktop, laptop
 
 ## Usage
 
-This webpage can be accessed at https://marvalyn.github.io/Bootstrap-Portfolio/ the homescreen looks as follows; [Webpage](../Bootstrap-Portfolio/images/Screenshot%202022-12-10%20at%2019.13.53.png)
+This webpage can be accessed at https://marvalyn.github.io/Bootstrap-Portfolio/ the homescreen looks as follows; <img width="1301" alt="Screenshot 2022-12-10 at 19 13 53" src="https://user-images.githubusercontent.com/111514523/206872042-7318b945-a89c-45df-958d-238f978c6626.png">
 
 ## Credits
 
