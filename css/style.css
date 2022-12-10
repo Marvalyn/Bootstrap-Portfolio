@@ -1,29 +1,17 @@
-#About {
-    background-image: url(../images/Screenshot\ 2022-12-03\ at\ 14.28.54.png);
-    background-repeat: none;
-    background-size: cover;
-}
 /*HEADER*/
 header{
     font-family: "poppins-medium";
     background: #151515;
 }
-/*DROPDOWN BUTTON*/
+/*NAV BAR*/
 
-.menu {
-    background-color:  #FF0077;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: 15%;
-    border-radius: 10px;
-  }
+
   
   
 
   /* ABOUT ME*/ 
 
-  #About-Me {
+  .jumbotron {
     background: #151515;
     background-size: cover;
     width: 100%;
@@ -41,7 +29,7 @@ header{
     text-align: center;
   }
  
-  .About-Me-Content h1 {
+  .jumbotron .display-4 {
     color: #FFFFFF;
     font-family: "sans-serif";
     font-size: 135px;
@@ -54,7 +42,7 @@ header{
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   
-  .About-Me-Content h5 {
+  .jumbotron .lead {
     color: #cc005f;
     font-family: "sans-serif";
     font-size: 40px;
@@ -65,7 +53,7 @@ header{
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   }
 
-  .About-Me-Content .About-Me-Position {
+  .jumbotron .About-Me-Position {
     font-family: "serif";
     font-size: 30px;
     line-height: 1.565;
@@ -75,11 +63,11 @@ header{
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   }
 
-  .About-Me-Content .About-Me-Position span {
+  .jumbotron  .About-Me-Position span {
     display: inline-block;
   }
 
-  .About-Me-Content .About-Me-Position span::after {
+  .jumbotron  .About-Me-Position span::after {
     content: "|";
     text-align: center;
     display: inline-block;
@@ -87,6 +75,14 @@ header{
     color: rgba(255, 255, 255, 0.3);
   }
 
+  .jumbotron .btn {
+    background-color:  #FF0077;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 15%;
+    border-radius: 10px;
+  }
 
 /* ABOUT SECTION*/
 #about {
